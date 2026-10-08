@@ -14,6 +14,5 @@ vim.lsp.enable({
 })
 
 -- Keymappings
-vim.keymap.set('n', '<leader>e', '<cmd>Oil<CR>')
 vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Show Diagnostic' })
 
